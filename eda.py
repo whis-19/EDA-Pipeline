@@ -22,11 +22,11 @@ def statistical_summary(df):
     num_cols = df.select_dtypes(include=['number']).columns
 
     if len(num_cols) == 0:
-        return "No numerical columns found in the DataFrame."
+        st.write("No numerical columns found in the DataFrame.")
+        return
 
     # Dictionary to store summaries for each variable
     summary_dict = {}
-
     for col in num_cols:
         summary_dict[col] = {
             "Mean": df[col].mean(),
@@ -44,7 +44,8 @@ def statistical_summary(df):
 
     # Convert dictionary to DataFrame for pretty display
     summary_df = pd.DataFrame(summary_dict).T
-
+    st.write(summary_df)
+    
     return summary_df
 
 def plot_time_series(df, datetime_col="datetime", demand_col="demand_mwh", sample_rate=1000):
@@ -63,7 +64,6 @@ def plot_time_series(df, datetime_col="datetime", demand_col="demand_mwh", sampl
     df = df.sort_values(by=datetime_col)
 
     # Downsample data (optional but improves clarity)
-    # df_sampled = df.iloc[::sample_rate]  # Pick every nth row
     df_sampled = df
 
     # Set figure size
@@ -91,9 +91,7 @@ def univariate_analysis(df):
     Perform univariate analysis: Histogram, Boxplot, Density plot.
     
     :param df: Pandas DataFrame containing the data
-    :param column: Column name (numerical feature) to analyze
     """
-
     # Convert datetime column to actual datetime format
     df["datetime"] = pd.to_datetime(df["datetime"])
 
@@ -199,7 +197,6 @@ def time_series_analysis(df, date_col, target_col, period=24):
     decomposition.trend.plot(ax=axes[1], title="Trend")
     decomposition.seasonal.plot(ax=axes[2], title="Seasonality")
     decomposition.resid.plot(ax=axes[3], title="Residuals", linestyle='dashed')
-
     for ax in axes:
         ax.set_xlabel("Date")
     
@@ -224,9 +221,30 @@ def time_series_analysis(df, date_col, target_col, period=24):
     # Reset index after analysis
     df.reset_index(inplace=True)
 
+def check_demand_in_each_city(data):
+    # Extract province columns (all columns starting with "Province_")
+    province_columns = [col for col in data.columns if col.startswith("Province_")]
+    
+    # Multiply each one-hot encoded province column by the demand to distribute demand correctly
+    province_demand = data[province_columns].multiply(data["demand_mwh"], axis=0).sum()
+
+    # Sort values
+    province_demand = province_demand.sort_values()
+
+    # Plot
+    plt.figure(figsize=(12, 6))
+    sns.barplot(y=province_demand.index.str.replace("Province_", ""), x=province_demand.values, palette="coolwarm", orient='h')
+    plt.ylabel("Province")
+    plt.xlabel("Total Electricity Demand (MWh)")
+    plt.title("Electricity Demand by Province")
+    st.pyplot(plt)
+
+    return province_demand
+
 def perform_eda(df):
+    check_demand_in_each_city(df)
+
     statistical_summary_result = statistical_summary(df)
-    st.write(statistical_summary_result)
 
     plot_time_series(df)
 

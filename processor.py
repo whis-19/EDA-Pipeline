@@ -13,8 +13,11 @@ def feature_engineering(data):
     data["day_of_week"] = data["datetime"].dt.dayofweek
     data["is_weekend"] = data["day_of_week"].apply(lambda x: 1 if x >= 5 else 0)
     data["season"] = data["month"].apply(lambda x: 'Winter' if x in [12, 1, 2] else 'Spring' if x in [3, 4, 5] else 'Summer' if x in [6, 7, 8] else 'Fall')
-    data["province"] = data["region"].apply(lambda x: x.split(",")[-1].strip())
     data = pd.get_dummies(data, columns=['season'], drop_first=True)
+    data = pd.get_dummies(data, columns=['subba-name'], drop_first=True)
+    # Convert only the new dummy columns to int
+    dummy_cols = [col for col in data.columns if 'Province_' in col]
+    data[dummy_cols] = data[dummy_cols].astype(int)
 
     return data
 
@@ -79,24 +82,18 @@ def handle_duplicates_and_anomalies(df):
         outliers = (df[col] < lower_bound) | (df[col] > upper_bound)
         st.write(f"Outliers detected in {col}: {outliers.sum()} rows")
 
+        # df = df[~outliers]
+
     return df
 
-# def normalize_data(data):
-#     # Identify numerical columns for normalization/standardization
-#     num_cols = data.select_dtypes(include=['number']).columns
-
-#     # Choose either StandardScaler (Z-score normalization) or MinMaxScaler (scales to [0,1])
-#     scaler = StandardScaler()
-#     data[num_cols] = scaler.fit_transform(data[num_cols])
-#     return data
-
 def normalize_data(data):
-    # Normalize only the 'value' column
-    if 'value' in data.columns:
-        scaler = StandardScaler()
-        data['value'] = scaler.fit_transform(data[['value']])
-    return data
+    # Identify numerical columns for normalization/standardization
+    num_cols = data.select_dtypes(include=['number']).columns
 
+    # Choose either StandardScaler (Z-score normalization) or MinMaxScaler (scales to [0,1])
+    scaler = StandardScaler()
+    data[num_cols] = scaler.fit_transform(data[num_cols])
+    return data
 
 def process_data(df):
     df = data_type_conversions(df)
