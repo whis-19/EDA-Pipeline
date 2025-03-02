@@ -13,6 +13,7 @@ def feature_engineering(data):
     data["day_of_week"] = data["datetime"].dt.dayofweek
     data["is_weekend"] = data["day_of_week"].apply(lambda x: 1 if x >= 5 else 0)
     data["season"] = data["month"].apply(lambda x: 'Winter' if x in [12, 1, 2] else 'Spring' if x in [3, 4, 5] else 'Summer' if x in [6, 7, 8] else 'Fall')
+    data["province"] = data["region"].apply(lambda x: x.split(",")[-1].strip())
     data = pd.get_dummies(data, columns=['season'], drop_first=True)
 
     return data
