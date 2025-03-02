@@ -1,80 +1,62 @@
 import os
-import json
-import glob
 import pandas as pd
-import streamlit as st
-from paths import *
+import json
+import numpy as np
 
-def convert_json_to_csv(input_folder, output_folder):
-    messages = []
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-        messages.append(f"Created output folder: {output_folder}")
-    
-    json_files = glob.glob(os.path.join(input_folder, "*.json"))
-    
-    if not json_files:
-        messages.append("No JSON files found in the folder.")
-        return messages
-    
-    for json_file in json_files:
-        try:
-            with open(json_file, "r") as f:
-                data = json.load(f)
-            records = data.get("response", {}).get("data", [])
-            df = pd.json_normalize(records)
-            
-            base_name = os.path.basename(json_file)
-            file_name = os.path.splitext(base_name)[0]
-            output_file = os.path.join(output_folder, file_name + ".csv")
-            
-            df.to_csv(output_file, index=False)
-            messages.append(f"Converted {json_file} to {output_file}")
-        except Exception as e:
-            messages.append(f"Error processing {json_file}: {e}")
-    
-    return messages
+# Define paths
+electricity_data = r".\raw\electricity_raw_data"
+weather_data = r".\raw\weather_raw_data"
+output_dir = r".\merged_output"
+output_file = os.path.join(output_dir, "merged.csv")
 
-def merge_csv_files(folder1, folder2, output_file):
-    messages = []
-    csv_files1 = glob.glob(os.path.join(folder1, "*.csv"))
-    csv_files2 = glob.glob(os.path.join(folder2, "*.csv"))
-    
-    if not csv_files1 or not csv_files2:
-        messages.append("No CSV files found in one or both folders.")
-        return messages
-    
-    dfs1 = [pd.read_csv(file) for file in csv_files1]
-    dfs2 = [pd.read_csv(file) for file in csv_files2]
-    
-    if not dfs1 or not dfs2:
-        messages.append("No data to merge from one or both folders.")
-        return messages
-    
-    df1 = pd.concat(dfs1, ignore_index=True, sort=False)
-    df2 = pd.concat(dfs2, ignore_index=True, sort=False)
-    merged_df = pd.concat([df1, df2], axis=1)
+# Ensure the output directory exists
+os.makedirs(output_dir, exist_ok=True)
 
-    # Ensure output directory exists
-    output_dir = os.path.dirname(output_file)
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        messages.append(f"Created output directory: {output_dir}")
+def load_electricity_data(folder_path):
+    electricity_data = []
+    for file in os.listdir(folder_path):
+        if file.endswith(".json"):
+            with open(os.path.join(folder_path, file), 'r') as f:
+                try:
+                    data = json.load(f)["response"]["data"]
+                    electricity_data.extend(data)
+                except KeyError:
+                    print(f"Skipping file {file} due to unexpected format")
+    electricity_df = pd.DataFrame(electricity_data)
+    electricity_df["period"] = pd.to_datetime(electricity_df["period"], errors='coerce')
+    electricity_df["value"] = electricity_df["value"].astype(str).str.extract(r'([0-9]+\.?[0-9]*)')[0]
+    electricity_df["value"] = pd.to_numeric(electricity_df["value"], errors='coerce')
+    electricity_df = electricity_df.rename(columns={"period": "datetime", "value": "demand_mwh"})
+    electricity_df["datetime"] = pd.to_datetime(electricity_df["datetime"], errors='coerce', utc=True)
+    return electricity_df.dropna()
+
+def load_weather_data(folder_path):
+    weather_data = []
+    for file in os.listdir(folder_path):
+        if file.endswith(".csv"):
+            df = pd.read_csv(os.path.join(folder_path, file))
+            df.rename(columns=lambda x: x.strip(), inplace=True)
+            df["date"] = pd.to_datetime(df["date"], errors='coerce', utc=True)
+            weather_data.append(df)
+    weather_df = pd.concat(weather_data, ignore_index=True)
+    weather_df = weather_df.rename(columns={"date": "datetime", "temperature_2m": "temperature"})
+    weather_df["datetime"] = pd.to_datetime(weather_df["datetime"], errors='coerce', utc=True)
+    return weather_df.dropna()
+
+def merge_data():
+    # Load data
+    electricity_df = load_electricity_data(electricity_data)
+    weather_df = load_weather_data(weather_data)
     
-    try:
-        merged_df.to_csv(output_file, index=False)
-        messages.append(f"Merged CSV saved as {output_file}")
-    except Exception as e:
-        messages.append(f"Error saving merged CSV: {e}")
+    # Merge data
+    data = pd.merge(electricity_df, weather_df, on="datetime", how="inner")
+    data["demand_mwh"] = pd.to_numeric(data["demand_mwh"], errors='coerce')
+    data.sort_values(by="datetime", inplace=True)
+
+    # Ensure the output directory exists
+    os.makedirs(output_dir, exist_ok=True)
     
-    return messages
-def merger():
-    st.write("Converting JSON to CSV...")
-    convert_json_to_csv(json_input_folder, csv_output_folder)
-
-    st.write("Process completed!")
-
-    st.write("Merging CSV files...")
-    merge_csv_files(csv_folder1, csv_folder2, merged_csv_output)
-
-    st.write("Process completed!")
+    # Save merged data
+    data.to_csv(output_file, index=False)
+    
+    return data

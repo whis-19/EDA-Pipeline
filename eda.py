@@ -1,126 +1,237 @@
 import pandas as pd
+import numpy as np
+import scipy.stats as stats
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
-from statsmodels.tsa.seasonal import seasonal_decompose
+import statsmodels.api as sm
 from statsmodels.tsa.stattools import adfuller
 import streamlit as st
-from paths import *
 
 def statistical_summary(df):
     """
-    Compute key statistical metrics for selected numerical features and save to "Statistical_Summary.txt".
-    """
-    key_features = ['value', 'temperature_2m', 'extracted_period_hour',
-                    'extracted_period_day', 'extracted_period_month', 'extracted_period_dayofweek']
-    existing_features = [col for col in key_features if col in df.columns]
+    Computes statistical metrics for each numerical variable in the dataframe and returns
+    a prettified DataFrame.
     
-    summary = df[existing_features].describe()
-    extra_stats = pd.DataFrame({
-        'skewness': df[existing_features].skew(),
-        'kurtosis': df[existing_features].kurtosis()
-    })
-    summary = pd.concat([summary, extra_stats])
+    Parameters:
+    df (pd.DataFrame): Input DataFrame with numerical variables
     
-    st.write(summary)
-
-def time_series_analysis(df):
+    Returns:
+    pd.DataFrame: A DataFrame containing the statistical summaries
     """
-    Plot electricity demand over time using a plasma colormap.
+    # Select numerical columns
+    num_cols = df.select_dtypes(include=['number']).columns
+
+    if len(num_cols) == 0:
+        return "No numerical columns found in the DataFrame."
+
+    # Dictionary to store summaries for each variable
+    summary_dict = {}
+
+    for col in num_cols:
+        summary_dict[col] = {
+            "Mean": df[col].mean(),
+            "Median": df[col].median(),
+            "Standard Deviation": df[col].std(),
+            "Variance": df[col].var(),
+            "Skewness": df[col].skew(),
+            "Kurtosis": stats.kurtosis(df[col], fisher=True),
+            "Min": df[col].min(),
+            "Max": df[col].max(),
+            "25th Percentile": df[col].quantile(0.25),
+            "50th Percentile (Median)": df[col].quantile(0.50),
+            "75th Percentile": df[col].quantile(0.75)
+        }
+
+    # Convert dictionary to DataFrame for pretty display
+    summary_df = pd.DataFrame(summary_dict).T
+
+    return summary_df
+
+def plot_time_series(df, datetime_col="datetime", demand_col="demand_mwh", sample_rate=1000):
     """
-    df['date'] = pd.to_datetime(df['date'], errors='coerce')
-    df_sorted = df.sort_values(by='date').dropna(subset=['date', 'value'])
+    Plots a clean time series line chart without unwanted fill effects.
 
-    plt.figure(figsize=(12,6))
+    :param df: Pandas DataFrame containing time series data
+    :param datetime_col: Column name representing timestamps
+    :param demand_col: Column name representing electricity demand
+    :param sample_rate: Interval to downsample data for better visualization
+    """
+    # Convert datetime column to proper format
+    df[datetime_col] = pd.to_datetime(df[datetime_col])
 
-    # Use scatter plot with plasma colormap for gradient effect
-    colors = plt.cm.plasma(np.linspace(0, 1, len(df_sorted)))
-    plt.scatter(df_sorted['date'], df_sorted['value'], c=np.arange(len(df_sorted)), cmap='plasma', edgecolors='none')
+    # Sort data by time
+    df = df.sort_values(by=datetime_col)
 
-    plt.xlabel("Time")
-    plt.ylabel("Electricity Demand")
-    plt.title("Electricity Demand Over Time")
-    plt.colorbar(label="Time Progression")
-    plt.grid(True)
+    # Downsample data (optional but improves clarity)
+    # df_sampled = df.iloc[::sample_rate]  # Pick every nth row
+    df_sampled = df
 
-    plt.tight_layout()
+    # Set figure size
+    plt.figure(figsize=(14, 6))
+
+    # Plot as a thin line (no fill)
+    plt.plot(df_sampled[datetime_col], df_sampled[demand_col], color='blue', linewidth=1, linestyle='-')
+
+    # Titles and labels
+    plt.title("Electricity Demand Over Time", fontsize=14)
+    plt.xlabel("Time", fontsize=12)
+    plt.ylabel("Electricity Demand", fontsize=12)
+
+    # Rotate x-axis labels for better visibility
+    plt.xticks(rotation=45)
+
+    # Grid for better visualization
+    plt.grid(True, linestyle="--", alpha=0.6)
+
+    # Show plot
     st.pyplot(plt)
 
 def univariate_analysis(df):
     """
-    Generate histograms, boxplots, and density plots for key numerical features using plasma colormap.
+    Perform univariate analysis: Histogram, Boxplot, Density plot.
+    
+    :param df: Pandas DataFrame containing the data
+    :param column: Column name (numerical feature) to analyze
     """
-    key_features = [
-        "extracted_period_hour", "extracted_period_day", "extracted_period_month", 
-        "extracted_period_dayofweek", "temperature_2m"
-    ]
-    df = df[key_features].dropna()
-    
-    fig, axes = plt.subplots(len(key_features), 3, figsize=(15, 5*len(key_features)))
-    
-    for i, col in enumerate(key_features):
-        col_data = df[col]
-        
+
+    # Convert datetime column to actual datetime format
+    df["datetime"] = pd.to_datetime(df["datetime"])
+
+    # Selecting only numerical columns
+    numerical_cols = df.select_dtypes(include=["number"]).columns
+
+    # Iterate over each numerical column
+    for col in numerical_cols:
+        plt.figure(figsize=(18, 5))
+
         # Histogram
-        sns.histplot(col_data, bins=30, kde=True, ax=axes[i, 0], color=plt.cm.plasma(0.2))
-        axes[i, 0].set_title(f"Histogram of {col}")
-        
+        plt.subplot(1, 3, 1)
+        sns.histplot(df[col], bins=30, kde=True, color='blue')
+        plt.title(f"Histogram of {col}")
+
         # Boxplot
-        sns.boxplot(x=col_data, ax=axes[i, 1], color=plt.cm.plasma(0.5))
-        axes[i, 1].set_title(f"Boxplot of {col}")
-        
-        # KDE (Density Plot)
-        sns.kdeplot(col_data, ax=axes[i, 2], color=plt.cm.plasma(0.8))
-        axes[i, 2].set_title(f"Density Plot of {col}")
-    
-    plt.tight_layout()
-    st.pyplot(fig)
+        plt.subplot(1, 3, 2)
+        sns.boxplot(y=df[col], color='green')
+        plt.title(f"Boxplot of {col}")
 
-def correlation_analysis(df):
-    """
-    Compute correlation matrix and visualize using a heatmap with plasma colormap.
-    """
-    key_features = ['value', 'temperature_2m', 'extracted_period_hour',
-                    'extracted_period_day', 'extracted_period_month', 'extracted_period_dayofweek']
-    df = df[key_features].dropna()
-    
-    plt.figure(figsize=(8,6))
-    sns.heatmap(df.corr(), annot=True, fmt=".2f", cmap="plasma", square=True)
-    plt.title("Correlation Matrix")
+        # Density Plot
+        plt.subplot(1, 3, 3)
+        sns.kdeplot(df[col], fill=True, color='red')
+        plt.title(f"Density Plot of {col}")
 
+        st.pyplot(plt)
+
+        # Statistical Summary
+        stats = df[col].describe()
+        skewness = df[col].skew()
+        kurtosis = df[col].kurtosis()
+
+        st.write(f"\n🔹 Statistical Summary for {col}:\n")
+        st.write(stats)
+        st.write(f"Skewness: {skewness}")
+        st.write(f"Kurtosis: {kurtosis}\n")
+        st.write("-" * 50)
+
+def correlation_analysis(df, threshold=0.75):
+    """
+    Computes and visualizes the correlation matrix for numerical features.
+    Identifies multicollinearity issues by flagging highly correlated features.
+
+    Parameters:
+    df (pd.DataFrame): Input DataFrame
+    threshold (float): Correlation threshold for identifying multicollinearity (default = 0.75)
+
+    Returns:
+    high_corr_pairs (list): List of highly correlated feature pairs
+    """
+    # Select numerical columns
+    numerical_cols = df.select_dtypes(include=['number']).columns
+
+    # Compute correlation matrix
+    corr_matrix = df[numerical_cols].corr()
+
+    # Plot heatmap
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+    plt.title("Correlation Matrix Heatmap")
     st.pyplot(plt)
-    
-def advanced_time_series_techniques(df):
-    """
-    Perform time series decomposition and ADF test.
-    """
-    df['date'] = pd.to_datetime(df['date'], errors='coerce')
-    df_sorted = df.sort_values(by='date').dropna(subset=['date', 'value'])
-    ts = df_sorted.set_index('date')['value']
-    
-    decomposition = seasonal_decompose(ts, model='additive', period=24)
-    fig = decomposition.plot()
-    fig.set_size_inches(12, 8)
-    plt.tight_layout()
 
+    # Identifying Multicollinearity (correlation > threshold)
+    high_corr_pairs = []
+    for i in range(len(corr_matrix.columns)):
+        for j in range(i):
+            if abs(corr_matrix.iloc[i, j]) > threshold:
+                high_corr_pairs.append((corr_matrix.columns[i], corr_matrix.columns[j], corr_matrix.iloc[i, j]))
+
+    # Print highly correlated features
+    if high_corr_pairs:
+        st.write("\n🔹 Highly Correlated Feature Pairs (|correlation| > {}):".format(threshold))
+        for feature1, feature2, correlation in high_corr_pairs:
+            st.write(f"{feature1} ↔ {feature2} | Correlation: {correlation:.2f}")
+    else:
+        st.write("\n✅ No strong multicollinearity detected (correlation > {}).".format(threshold))
+    
+    return high_corr_pairs
+
+def time_series_analysis(df, date_col, target_col, period=24):
+    """
+    Performs time series decomposition and stationarity testing (ADF Test).
+
+    Parameters:
+    df (pd.DataFrame): Input DataFrame with time series data
+    date_col (str): Column name containing datetime information
+    target_col (str): Column name for the time series variable (e.g., demand)
+    period (int): Seasonal period for decomposition (default = 24 for hourly data)
+
+    Returns:
+    None
+    """
+    # Convert date column to datetime
+    df[date_col] = pd.to_datetime(df[date_col])
+    df.set_index(date_col, inplace=True)
+
+    # Time Series Decomposition
+    decomposition = sm.tsa.seasonal_decompose(df[target_col], model='additive', period=period)
+
+    # Plot decomposition
+    fig, axes = plt.subplots(4, 1, figsize=(12, 8))
+    decomposition.observed.plot(ax=axes[0], title="Observed")
+    decomposition.trend.plot(ax=axes[1], title="Trend")
+    decomposition.seasonal.plot(ax=axes[2], title="Seasonality")
+    decomposition.resid.plot(ax=axes[3], title="Residuals", linestyle='dashed')
+
+    for ax in axes:
+        ax.set_xlabel("Date")
+    
+    plt.tight_layout()
     st.pyplot(fig)
 
-    adf_result = adfuller(ts.dropna())
-    adf_output = (f"ADF Statistic: {adf_result[0]:.4f}\n"
-                    f"p-value: {adf_result[1]:.4f}\n"
-                    f"Critical Values: {adf_result[4]}")
+    # Stationarity Test: Augmented Dickey-Fuller Test
+    st.write("\n📉 Augmented Dickey-Fuller Test Results:")
+    adf_test = adfuller(df[target_col].dropna())
+    results = pd.Series(adf_test[:4], index=['Test Statistic', 'p-value', '# Lags Used', '# Observations Used'])
+    for key, value in adf_test[4].items():
+        results[f'Critical Value ({key})'] = value
 
-    st.write(adf_output)
+    st.write(results)
 
-def run_eda(input_csv):
-    """
-    Load dataset, run all EDA functions, and save outputs.
-    """
-    df = pd.read_csv(input_csv)
-    st.write(f"Loaded dataset with shape: {df.shape}")
-    
-    statistical_summary(df)
-    time_series_analysis(df)
+    # Interpretation
+    if adf_test[1] < 0.05:
+        st.write("\n✅ The time series is stationary (p-value < 0.05).")
+    else:
+        st.write("\n⚠️ The time series is non-stationary (p-value >= 0.05). Consider differencing or detrending.")
+
+    # Reset index after analysis
+    df.reset_index(inplace=True)
+
+def perform_eda(df):
+    statistical_summary_result = statistical_summary(df)
+    st.write(statistical_summary_result)
+
+    plot_time_series(df)
+
     univariate_analysis(df)
-    correlation_analysis(df)
-    advanced_time_series_techniques(df)
+
+    high_corr_pairs = correlation_analysis(df)
+
+    time_series_analysis(df, "datetime", "demand_mwh")

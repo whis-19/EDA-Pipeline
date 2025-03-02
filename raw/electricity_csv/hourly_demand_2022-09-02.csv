@@ -1,0 +1,276 @@
+period,subba,subba-name,parent,parent-name,value,value-units
+2022-09-03 00:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2005,megawatthours
+2022-09-03 00:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1369,megawatthours
+2022-09-03 00:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1959,megawatthours
+2022-09-03 00:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,661,megawatthours
+2022-09-03 00:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,987,megawatthours
+2022-09-03 00:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1556,megawatthours
+2022-09-03 00:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1319,megawatthours
+2022-09-03 00:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,381,megawatthours
+2022-09-03 00:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,782,megawatthours
+2022-09-03 00:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6557,megawatthours
+2022-09-03 00:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3080,megawatthours
+2022-09-02 23:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2090,megawatthours
+2022-09-02 23:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1401,megawatthours
+2022-09-02 23:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1983,megawatthours
+2022-09-02 23:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,670,megawatthours
+2022-09-02 23:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,952,megawatthours
+2022-09-02 23:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1558,megawatthours
+2022-09-02 23:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1353,megawatthours
+2022-09-02 23:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,401,megawatthours
+2022-09-02 23:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,816,megawatthours
+2022-09-02 23:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6785,megawatthours
+2022-09-02 23:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3253,megawatthours
+2022-09-02 22:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2139,megawatthours
+2022-09-02 22:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1364,megawatthours
+2022-09-02 22:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1907,megawatthours
+2022-09-02 22:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,669,megawatthours
+2022-09-02 22:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,899,megawatthours
+2022-09-02 22:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1518,megawatthours
+2022-09-02 22:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1319,megawatthours
+2022-09-02 22:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,418,megawatthours
+2022-09-02 22:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,843,megawatthours
+2022-09-02 22:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7105,megawatthours
+2022-09-02 22:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3316,megawatthours
+2022-09-02 21:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2129,megawatthours
+2022-09-02 21:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1307,megawatthours
+2022-09-02 21:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1799,megawatthours
+2022-09-02 21:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,659,megawatthours
+2022-09-02 21:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,844,megawatthours
+2022-09-02 21:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1430,megawatthours
+2022-09-02 21:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1236,megawatthours
+2022-09-02 21:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,420,megawatthours
+2022-09-02 21:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,828,megawatthours
+2022-09-02 21:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7114,megawatthours
+2022-09-02 21:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3247,megawatthours
+2022-09-02 20:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2078,megawatthours
+2022-09-02 20:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1256,megawatthours
+2022-09-02 20:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1712,megawatthours
+2022-09-02 20:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,654,megawatthours
+2022-09-02 20:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,792,megawatthours
+2022-09-02 20:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1359,megawatthours
+2022-09-02 20:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1152,megawatthours
+2022-09-02 20:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,408,megawatthours
+2022-09-02 20:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,804,megawatthours
+2022-09-02 20:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7025,megawatthours
+2022-09-02 20:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3122,megawatthours
+2022-09-02 19:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2007,megawatthours
+2022-09-02 19:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1208,megawatthours
+2022-09-02 19:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1666,megawatthours
+2022-09-02 19:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,650,megawatthours
+2022-09-02 19:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,776,megawatthours
+2022-09-02 19:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1298,megawatthours
+2022-09-02 19:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1069,megawatthours
+2022-09-02 19:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,390,megawatthours
+2022-09-02 19:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,774,megawatthours
+2022-09-02 19:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6956,megawatthours
+2022-09-02 19:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2982,megawatthours
+2022-09-02 18:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1937,megawatthours
+2022-09-02 18:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1154,megawatthours
+2022-09-02 18:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1636,megawatthours
+2022-09-02 18:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,646,megawatthours
+2022-09-02 18:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,763,megawatthours
+2022-09-02 18:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1254,megawatthours
+2022-09-02 18:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1002,megawatthours
+2022-09-02 18:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,368,megawatthours
+2022-09-02 18:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,750,megawatthours
+2022-09-02 18:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6864,megawatthours
+2022-09-02 18:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2828,megawatthours
+2022-09-02 17:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1845,megawatthours
+2022-09-02 17:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1099,megawatthours
+2022-09-02 17:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1583,megawatthours
+2022-09-02 17:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,627,megawatthours
+2022-09-02 17:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,758,megawatthours
+2022-09-02 17:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1220,megawatthours
+2022-09-02 17:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,944,megawatthours
+2022-09-02 17:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,351,megawatthours
+2022-09-02 17:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,732,megawatthours
+2022-09-02 17:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6752,megawatthours
+2022-09-02 17:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2697,megawatthours
+2022-09-02 16:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1782,megawatthours
+2022-09-02 16:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1057,megawatthours
+2022-09-02 16:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1559,megawatthours
+2022-09-02 16:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,625,megawatthours
+2022-09-02 16:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,757,megawatthours
+2022-09-02 16:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1221,megawatthours
+2022-09-02 16:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,913,megawatthours
+2022-09-02 16:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,338,megawatthours
+2022-09-02 16:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,718,megawatthours
+2022-09-02 16:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6644,megawatthours
+2022-09-02 16:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2582,megawatthours
+2022-09-02 15:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1753,megawatthours
+2022-09-02 15:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1017,megawatthours
+2022-09-02 15:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1532,megawatthours
+2022-09-02 15:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,624,megawatthours
+2022-09-02 15:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,759,megawatthours
+2022-09-02 15:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1233,megawatthours
+2022-09-02 15:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,890,megawatthours
+2022-09-02 15:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,326,megawatthours
+2022-09-02 15:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,705,megawatthours
+2022-09-02 15:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6511,megawatthours
+2022-09-02 15:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2472,megawatthours
+2022-09-02 14:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1676,megawatthours
+2022-09-02 14:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,987,megawatthours
+2022-09-02 14:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1534,megawatthours
+2022-09-02 14:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,631,megawatthours
+2022-09-02 14:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,731,megawatthours
+2022-09-02 14:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1255,megawatthours
+2022-09-02 14:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,891,megawatthours
+2022-09-02 14:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,311,megawatthours
+2022-09-02 14:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,682,megawatthours
+2022-09-02 14:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6326,megawatthours
+2022-09-02 14:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2392,megawatthours
+2022-09-02 13:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1622,megawatthours
+2022-09-02 13:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,985,megawatthours
+2022-09-02 13:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1579,megawatthours
+2022-09-02 13:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,638,megawatthours
+2022-09-02 13:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,756,megawatthours
+2022-09-02 13:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1285,megawatthours
+2022-09-02 13:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,919,megawatthours
+2022-09-02 13:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,295,megawatthours
+2022-09-02 13:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,660,megawatthours
+2022-09-02 13:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6066,megawatthours
+2022-09-02 13:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2320,megawatthours
+2022-09-02 12:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1564,megawatthours
+2022-09-02 12:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,988,megawatthours
+2022-09-02 12:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1599,megawatthours
+2022-09-02 12:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,621,megawatthours
+2022-09-02 12:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,782,megawatthours
+2022-09-02 12:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1292,megawatthours
+2022-09-02 12:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,918,megawatthours
+2022-09-02 12:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,276,megawatthours
+2022-09-02 12:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,621,megawatthours
+2022-09-02 12:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5709,megawatthours
+2022-09-02 12:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2193,megawatthours
+2022-09-02 11:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1492,megawatthours
+2022-09-02 11:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,951,megawatthours
+2022-09-02 11:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1526,megawatthours
+2022-09-02 11:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,617,megawatthours
+2022-09-02 11:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,744,megawatthours
+2022-09-02 11:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1246,megawatthours
+2022-09-02 11:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,876,megawatthours
+2022-09-02 11:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,265,megawatthours
+2022-09-02 11:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,582,megawatthours
+2022-09-02 11:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5332,megawatthours
+2022-09-02 11:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2089,megawatthours
+2022-09-02 10:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1420,megawatthours
+2022-09-02 10:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,901,megawatthours
+2022-09-02 10:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1412,megawatthours
+2022-09-02 10:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,608,megawatthours
+2022-09-02 10:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,681,megawatthours
+2022-09-02 10:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1176,megawatthours
+2022-09-02 10:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,828,megawatthours
+2022-09-02 10:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,243,megawatthours
+2022-09-02 10:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,549,megawatthours
+2022-09-02 10:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5017,megawatthours
+2022-09-02 10:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2006,megawatthours
+2022-09-02 09:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1378,megawatthours
+2022-09-02 09:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,867,megawatthours
+2022-09-02 09:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1355,megawatthours
+2022-09-02 09:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,599,megawatthours
+2022-09-02 09:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,651,megawatthours
+2022-09-02 09:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1133,megawatthours
+2022-09-02 09:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,805,megawatthours
+2022-09-02 09:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,238,megawatthours
+2022-09-02 09:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,536,megawatthours
+2022-09-02 09:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,4877,megawatthours
+2022-09-02 09:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,1955,megawatthours
+2022-09-02 08:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1375,megawatthours
+2022-09-02 08:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,862,megawatthours
+2022-09-02 08:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1336,megawatthours
+2022-09-02 08:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,595,megawatthours
+2022-09-02 08:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,647,megawatthours
+2022-09-02 08:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1118,megawatthours
+2022-09-02 08:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,812,megawatthours
+2022-09-02 08:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,237,megawatthours
+2022-09-02 08:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,543,megawatthours
+2022-09-02 08:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,4951,megawatthours
+2022-09-02 08:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,1980,megawatthours
+2022-09-02 07:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1388,megawatthours
+2022-09-02 07:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,877,megawatthours
+2022-09-02 07:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1366,megawatthours
+2022-09-02 07:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,585,megawatthours
+2022-09-02 07:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,656,megawatthours
+2022-09-02 07:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1123,megawatthours
+2022-09-02 07:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,835,megawatthours
+2022-09-02 07:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,248,megawatthours
+2022-09-02 07:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,563,megawatthours
+2022-09-02 07:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5136,megawatthours
+2022-09-02 07:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2057,megawatthours
+2022-09-02 06:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1422,megawatthours
+2022-09-02 06:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,902,megawatthours
+2022-09-02 06:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1403,megawatthours
+2022-09-02 06:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,587,megawatthours
+2022-09-02 06:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,683,megawatthours
+2022-09-02 06:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1146,megawatthours
+2022-09-02 06:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,877,megawatthours
+2022-09-02 06:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,267,megawatthours
+2022-09-02 06:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,597,megawatthours
+2022-09-02 06:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5370,megawatthours
+2022-09-02 06:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2177,megawatthours
+2022-09-02 05:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1465,megawatthours
+2022-09-02 05:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,939,megawatthours
+2022-09-02 05:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1452,megawatthours
+2022-09-02 05:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,602,megawatthours
+2022-09-02 05:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,711,megawatthours
+2022-09-02 05:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1183,megawatthours
+2022-09-02 05:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,935,megawatthours
+2022-09-02 05:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,285,megawatthours
+2022-09-02 05:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,640,megawatthours
+2022-09-02 05:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,5687,megawatthours
+2022-09-02 05:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2356,megawatthours
+2022-09-02 04:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1519,megawatthours
+2022-09-02 04:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,990,megawatthours
+2022-09-02 04:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1525,megawatthours
+2022-09-02 04:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,611,megawatthours
+2022-09-02 04:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,742,megawatthours
+2022-09-02 04:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1241,megawatthours
+2022-09-02 04:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1015,megawatthours
+2022-09-02 04:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,315,megawatthours
+2022-09-02 04:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,690,megawatthours
+2022-09-02 04:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6044,megawatthours
+2022-09-02 04:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2600,megawatthours
+2022-09-02 03:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1615,megawatthours
+2022-09-02 03:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1062,megawatthours
+2022-09-02 03:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1629,megawatthours
+2022-09-02 03:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,630,megawatthours
+2022-09-02 03:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,808,megawatthours
+2022-09-02 03:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1365,megawatthours
+2022-09-02 03:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1125,megawatthours
+2022-09-02 03:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,355,megawatthours
+2022-09-02 03:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,751,megawatthours
+2022-09-02 03:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6419,megawatthours
+2022-09-02 03:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2882,megawatthours
+2022-09-02 02:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1702,megawatthours
+2022-09-02 02:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1141,megawatthours
+2022-09-02 02:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1754,megawatthours
+2022-09-02 02:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,629,megawatthours
+2022-09-02 02:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,888,megawatthours
+2022-09-02 02:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1432,megawatthours
+2022-09-02 02:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1235,megawatthours
+2022-09-02 02:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,396,megawatthours
+2022-09-02 02:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,810,megawatthours
+2022-09-02 02:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6790,megawatthours
+2022-09-02 02:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3169,megawatthours
+2022-09-02 01:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1767,megawatthours
+2022-09-02 01:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1208,megawatthours
+2022-09-02 01:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1853,megawatthours
+2022-09-02 01:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,641,megawatthours
+2022-09-02 01:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,944,megawatthours
+2022-09-02 01:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1495,megawatthours
+2022-09-02 01:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1329,megawatthours
+2022-09-02 01:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,416,megawatthours
+2022-09-02 01:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,853,megawatthours
+2022-09-02 01:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7086,megawatthours
+2022-09-02 01:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3432,megawatthours
+2022-09-02 00:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1788,megawatthours
+2022-09-02 00:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1223,megawatthours
+2022-09-02 00:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1845,megawatthours
+2022-09-02 00:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,643,megawatthours
+2022-09-02 00:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,941,megawatthours
+2022-09-02 00:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1515,megawatthours
+2022-09-02 00:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1381,megawatthours
+2022-09-02 00:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,439,megawatthours
+2022-09-02 00:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,884,megawatthours
+2022-09-02 00:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7320,megawatthours
+2022-09-02 00:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3634,megawatthours

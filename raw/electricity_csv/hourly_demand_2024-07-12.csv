@@ -1,0 +1,276 @@
+period,subba,subba-name,parent,parent-name,value,value-units
+2024-07-13 00:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2373,megawatthours
+2024-07-13 00:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1562,megawatthours
+2024-07-13 00:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2338,megawatthours
+2024-07-13 00:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,690,megawatthours
+2024-07-13 00:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1137,megawatthours
+2024-07-13 00:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1972,megawatthours
+2024-07-13 00:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1840,megawatthours
+2024-07-13 00:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,491,megawatthours
+2024-07-13 00:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1044,megawatthours
+2024-07-13 00:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8373,megawatthours
+2024-07-13 00:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3747,megawatthours
+2024-07-12 23:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2415,megawatthours
+2024-07-12 23:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1544,megawatthours
+2024-07-12 23:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2276,megawatthours
+2024-07-12 23:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,699,megawatthours
+2024-07-12 23:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1080,megawatthours
+2024-07-12 23:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1968,megawatthours
+2024-07-12 23:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1867,megawatthours
+2024-07-12 23:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,505,megawatthours
+2024-07-12 23:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1062,megawatthours
+2024-07-12 23:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8648,megawatthours
+2024-07-12 23:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3909,megawatthours
+2024-07-12 22:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2398,megawatthours
+2024-07-12 22:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1504,megawatthours
+2024-07-12 22:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2180,megawatthours
+2024-07-12 22:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,692,megawatthours
+2024-07-12 22:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1023,megawatthours
+2024-07-12 22:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1934,megawatthours
+2024-07-12 22:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1846,megawatthours
+2024-07-12 22:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,509,megawatthours
+2024-07-12 22:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1091,megawatthours
+2024-07-12 22:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8974,megawatthours
+2024-07-12 22:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3926,megawatthours
+2024-07-12 21:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2371,megawatthours
+2024-07-12 21:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1485,megawatthours
+2024-07-12 21:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2082,megawatthours
+2024-07-12 21:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,674,megawatthours
+2024-07-12 21:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,996,megawatthours
+2024-07-12 21:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1868,megawatthours
+2024-07-12 21:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1787,megawatthours
+2024-07-12 21:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,494,megawatthours
+2024-07-12 21:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1054,megawatthours
+2024-07-12 21:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8984,megawatthours
+2024-07-12 21:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3779,megawatthours
+2024-07-12 20:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2337,megawatthours
+2024-07-12 20:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1461,megawatthours
+2024-07-12 20:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2013,megawatthours
+2024-07-12 20:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,692,megawatthours
+2024-07-12 20:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,954,megawatthours
+2024-07-12 20:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1836,megawatthours
+2024-07-12 20:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1752,megawatthours
+2024-07-12 20:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,494,megawatthours
+2024-07-12 20:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1027,megawatthours
+2024-07-12 20:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8822,megawatthours
+2024-07-12 20:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3643,megawatthours
+2024-07-12 19:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2308,megawatthours
+2024-07-12 19:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1426,megawatthours
+2024-07-12 19:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1997,megawatthours
+2024-07-12 19:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,692,megawatthours
+2024-07-12 19:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,954,megawatthours
+2024-07-12 19:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1747,megawatthours
+2024-07-12 19:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1660,megawatthours
+2024-07-12 19:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,476,megawatthours
+2024-07-12 19:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1005,megawatthours
+2024-07-12 19:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8748,megawatthours
+2024-07-12 19:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3645,megawatthours
+2024-07-12 18:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2251,megawatthours
+2024-07-12 18:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1400,megawatthours
+2024-07-12 18:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1967,megawatthours
+2024-07-12 18:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,685,megawatthours
+2024-07-12 18:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,956,megawatthours
+2024-07-12 18:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1744,megawatthours
+2024-07-12 18:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1619,megawatthours
+2024-07-12 18:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,450,megawatthours
+2024-07-12 18:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,991,megawatthours
+2024-07-12 18:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8634,megawatthours
+2024-07-12 18:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3493,megawatthours
+2024-07-12 17:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2194,megawatthours
+2024-07-12 17:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1376,megawatthours
+2024-07-12 17:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1925,megawatthours
+2024-07-12 17:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,687,megawatthours
+2024-07-12 17:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,952,megawatthours
+2024-07-12 17:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1708,megawatthours
+2024-07-12 17:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1553,megawatthours
+2024-07-12 17:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,433,megawatthours
+2024-07-12 17:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,970,megawatthours
+2024-07-12 17:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8535,megawatthours
+2024-07-12 17:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3428,megawatthours
+2024-07-12 16:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2166,megawatthours
+2024-07-12 16:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1317,megawatthours
+2024-07-12 16:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1931,megawatthours
+2024-07-12 16:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,686,megawatthours
+2024-07-12 16:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,960,megawatthours
+2024-07-12 16:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1637,megawatthours
+2024-07-12 16:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1448,megawatthours
+2024-07-12 16:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,419,megawatthours
+2024-07-12 16:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,947,megawatthours
+2024-07-12 16:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8453,megawatthours
+2024-07-12 16:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3360,megawatthours
+2024-07-12 15:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2083,megawatthours
+2024-07-12 15:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1221,megawatthours
+2024-07-12 15:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1905,megawatthours
+2024-07-12 15:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,654,megawatthours
+2024-07-12 15:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,944,megawatthours
+2024-07-12 15:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1580,megawatthours
+2024-07-12 15:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1368,megawatthours
+2024-07-12 15:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,414,megawatthours
+2024-07-12 15:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,903,megawatthours
+2024-07-12 15:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8256,megawatthours
+2024-07-12 15:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3265,megawatthours
+2024-07-12 14:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2001,megawatthours
+2024-07-12 14:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1162,megawatthours
+2024-07-12 14:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1843,megawatthours
+2024-07-12 14:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,642,megawatthours
+2024-07-12 14:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,925,megawatthours
+2024-07-12 14:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1593,megawatthours
+2024-07-12 14:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1327,megawatthours
+2024-07-12 14:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,398,megawatthours
+2024-07-12 14:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,872,megawatthours
+2024-07-12 14:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7940,megawatthours
+2024-07-12 14:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3096,megawatthours
+2024-07-12 13:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1930,megawatthours
+2024-07-12 13:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1139,megawatthours
+2024-07-12 13:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1844,megawatthours
+2024-07-12 13:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,639,megawatthours
+2024-07-12 13:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,926,megawatthours
+2024-07-12 13:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1583,megawatthours
+2024-07-12 13:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1257,megawatthours
+2024-07-12 13:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,372,megawatthours
+2024-07-12 13:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,853,megawatthours
+2024-07-12 13:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7655,megawatthours
+2024-07-12 13:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2972,megawatthours
+2024-07-12 12:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1846,megawatthours
+2024-07-12 12:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1122,megawatthours
+2024-07-12 12:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1839,megawatthours
+2024-07-12 12:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,635,megawatthours
+2024-07-12 12:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,899,megawatthours
+2024-07-12 12:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1557,megawatthours
+2024-07-12 12:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1203,megawatthours
+2024-07-12 12:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,353,megawatthours
+2024-07-12 12:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,820,megawatthours
+2024-07-12 12:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7435,megawatthours
+2024-07-12 12:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2821,megawatthours
+2024-07-12 11:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1742,megawatthours
+2024-07-12 11:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1082,megawatthours
+2024-07-12 11:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1777,megawatthours
+2024-07-12 11:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,630,megawatthours
+2024-07-12 11:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,856,megawatthours
+2024-07-12 11:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1503,megawatthours
+2024-07-12 11:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1139,megawatthours
+2024-07-12 11:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,328,megawatthours
+2024-07-12 11:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,775,megawatthours
+2024-07-12 11:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7029,megawatthours
+2024-07-12 11:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2659,megawatthours
+2024-07-12 10:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1683,megawatthours
+2024-07-12 10:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1044,megawatthours
+2024-07-12 10:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1684,megawatthours
+2024-07-12 10:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,629,megawatthours
+2024-07-12 10:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,810,megawatthours
+2024-07-12 10:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1449,megawatthours
+2024-07-12 10:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1089,megawatthours
+2024-07-12 10:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,307,megawatthours
+2024-07-12 10:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,723,megawatthours
+2024-07-12 10:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6614,megawatthours
+2024-07-12 10:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2537,megawatthours
+2024-07-12 09:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1653,megawatthours
+2024-07-12 09:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1017,megawatthours
+2024-07-12 09:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1647,megawatthours
+2024-07-12 09:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,607,megawatthours
+2024-07-12 09:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,784,megawatthours
+2024-07-12 09:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1430,megawatthours
+2024-07-12 09:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1081,megawatthours
+2024-07-12 09:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,300,megawatthours
+2024-07-12 09:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,711,megawatthours
+2024-07-12 09:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6431,megawatthours
+2024-07-12 09:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2488,megawatthours
+2024-07-12 08:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1652,megawatthours
+2024-07-12 08:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1014,megawatthours
+2024-07-12 08:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1618,megawatthours
+2024-07-12 08:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,635,megawatthours
+2024-07-12 08:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,779,megawatthours
+2024-07-12 08:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1432,megawatthours
+2024-07-12 08:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1109,megawatthours
+2024-07-12 08:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,305,megawatthours
+2024-07-12 08:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,722,megawatthours
+2024-07-12 08:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6446,megawatthours
+2024-07-12 08:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2495,megawatthours
+2024-07-12 07:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1678,megawatthours
+2024-07-12 07:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1031,megawatthours
+2024-07-12 07:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1633,megawatthours
+2024-07-12 07:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,636,megawatthours
+2024-07-12 07:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,790,megawatthours
+2024-07-12 07:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1456,megawatthours
+2024-07-12 07:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1147,megawatthours
+2024-07-12 07:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,319,megawatthours
+2024-07-12 07:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,746,megawatthours
+2024-07-12 07:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6595,megawatthours
+2024-07-12 07:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2566,megawatthours
+2024-07-12 06:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1726,megawatthours
+2024-07-12 06:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1067,megawatthours
+2024-07-12 06:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1678,megawatthours
+2024-07-12 06:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,640,megawatthours
+2024-07-12 06:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,810,megawatthours
+2024-07-12 06:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1498,megawatthours
+2024-07-12 06:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1212,megawatthours
+2024-07-12 06:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,335,megawatthours
+2024-07-12 06:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,788,megawatthours
+2024-07-12 06:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,6820,megawatthours
+2024-07-12 06:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2698,megawatthours
+2024-07-12 05:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1797,megawatthours
+2024-07-12 05:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1117,megawatthours
+2024-07-12 05:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1733,megawatthours
+2024-07-12 05:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,647,megawatthours
+2024-07-12 05:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,850,megawatthours
+2024-07-12 05:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1565,megawatthours
+2024-07-12 05:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1301,megawatthours
+2024-07-12 05:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,369,megawatthours
+2024-07-12 05:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,841,megawatthours
+2024-07-12 05:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7125,megawatthours
+2024-07-12 05:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,2893,megawatthours
+2024-07-12 04:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1859,megawatthours
+2024-07-12 04:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1180,megawatthours
+2024-07-12 04:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1808,megawatthours
+2024-07-12 04:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,658,megawatthours
+2024-07-12 04:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,898,megawatthours
+2024-07-12 04:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1649,megawatthours
+2024-07-12 04:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1421,megawatthours
+2024-07-12 04:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,402,megawatthours
+2024-07-12 04:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,909,megawatthours
+2024-07-12 04:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7528,megawatthours
+2024-07-12 04:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3152,megawatthours
+2024-07-12 03:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,1945,megawatthours
+2024-07-12 03:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1265,megawatthours
+2024-07-12 03:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,1922,megawatthours
+2024-07-12 03:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,675,megawatthours
+2024-07-12 03:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,972,megawatthours
+2024-07-12 03:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1777,megawatthours
+2024-07-12 03:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1548,megawatthours
+2024-07-12 03:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,434,megawatthours
+2024-07-12 03:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,978,megawatthours
+2024-07-12 03:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,7963,megawatthours
+2024-07-12 03:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3465,megawatthours
+2024-07-12 02:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2022,megawatthours
+2024-07-12 02:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1343,megawatthours
+2024-07-12 02:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2031,megawatthours
+2024-07-12 02:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,673,megawatthours
+2024-07-12 02:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1042,megawatthours
+2024-07-12 02:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1898,megawatthours
+2024-07-12 02:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1672,megawatthours
+2024-07-12 02:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,463,megawatthours
+2024-07-12 02:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1038,megawatthours
+2024-07-12 02:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8346,megawatthours
+2024-07-12 02:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3753,megawatthours
+2024-07-12 01:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2046,megawatthours
+2024-07-12 01:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1370,megawatthours
+2024-07-12 01:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2077,megawatthours
+2024-07-12 01:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,658,megawatthours
+2024-07-12 01:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1068,megawatthours
+2024-07-12 01:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1947,megawatthours
+2024-07-12 01:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1734,megawatthours
+2024-07-12 01:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,487,megawatthours
+2024-07-12 01:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1084,megawatthours
+2024-07-12 01:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8579,megawatthours
+2024-07-12 01:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,3934,megawatthours
+2024-07-12 00:00:00,ZONA,West - NYIS,NYIS,New York Independent System Operator,2028,megawatthours
+2024-07-12 00:00:00,ZONB,Genesee - NYIS,NYIS,New York Independent System Operator,1381,megawatthours
+2024-07-12 00:00:00,ZONC,Central - NYIS,NYIS,New York Independent System Operator,2106,megawatthours
+2024-07-12 00:00:00,ZOND,North - NYIS,NYIS,New York Independent System Operator,677,megawatthours
+2024-07-12 00:00:00,ZONE,Mohawk Valley - NYIS,NYIS,New York Independent System Operator,1091,megawatthours
+2024-07-12 00:00:00,ZONF,Capital - NYIS,NYIS,New York Independent System Operator,1975,megawatthours
+2024-07-12 00:00:00,ZONG,Hudson Valley - NYIS,NYIS,New York Independent System Operator,1827,megawatthours
+2024-07-12 00:00:00,ZONH,Millwood - NYIS,NYIS,New York Independent System Operator,547,megawatthours
+2024-07-12 00:00:00,ZONI,Dunwoodie - NYIS,NYIS,New York Independent System Operator,1140,megawatthours
+2024-07-12 00:00:00,ZONJ,New York City - NYIS,NYIS,New York Independent System Operator,8928,megawatthours
+2024-07-12 00:00:00,ZONK,Long Island - NYIS,NYIS,New York Independent System Operator,4190,megawatthours
